@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QIUPROXY 服务条款 (TOS)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .theme-switcher {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .theme-switcher button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="theme-switcher">
+        <button onclick="showTOS()">QIUPROXY TOS</button>
+        <button onclick="showProxy()">代理卡网</button>
+    </div>
+    
+    <div id="tos-content" class="container">
+        <h1>QIUPROXY 服务条款 (TOS)</h1>
+        <p>欢迎使用QIUPROXY！在您使用服务前，请仔细阅读以下条款：</p>
+        <ul>
+            <li><strong>1.</strong> 您不能泄露我们的服务IP。</li>
+            <li><strong>2.</strong> 您不能尝试攻击我们的服务。</li>
+            <li><strong>3.</strong> 您不能尝试攻击服务运营者。</li>
+            <li><strong>4.</strong> 在使用服务前，请先阅读我们的群公告等公告。</li>
+            <li><strong>5.</strong> 请勿辱骂任何我们的Staff成员。</li>
+            <li><strong>6.</strong> 对于自己操作失误造成的损失由您承担。</li>
+            <li><strong>7.</strong> 客服非工作制，为志愿服务，无法24小时在线，请您耐心等待。</li>
+        </ul>
+        <p>如果您不同意QIUPROXY服务条款，则您没有权利使用QIUPROXY的服务。如果您使用了QIUPROXY的服务，则默认您已经同意并阅读以上规则。谢谢使用！</p>
+    </div>
+    
+    <div id="proxy-content" class="container hidden">
+        <h1>代理卡网</h1>
+        <p>这里展示我们卡密代理卡网：</p>
+        <ul>
+            <li><strong>Nya</strong> - <a href="https://shop.nyaproxy.xyz/">https://shop.nyaproxy.xyz/</a> 卡密开头为：Nya</li>
+            <li><strong>Andy</strong> - <a href="https://shop.andyzywl.com/">https://shop.andyzywl.com/</a> 卡密开头为：Andy</li>
+            <li><strong>离殇</strong> - <a href="https://shop.lishangmc.com/">https://shop.lishangmc.com/</a> 卡密开头为：Lishang</li>
+            <li><strong>雪碧</strong> - <a href="https://shop.xuebimc.com/">https://shop.xuebimc.com/</a> 卡密开头为：Xuebi</li>
+            <li><strong>大海</strong> - <a href="https://dahaikw.shop/">https://dahaikw.shop/</a> 卡密开头为：Dahai</li>
+            <li><strong>xDDDDD</strong> - <a href="https://xddddd.icu/">https://xddddd.icu/</a> 卡密开头为：Munan</li>
+            <li><strong>Ming</strong> - <a href="https://shop.fazot.lol/">https://shop.fazot.lol/</a> 卡密开头为：Ming</li>
+            <li><strong>一猫</strong> - <a href="https://bakamarisa.shop/">https://bakamarisa.shop/</a> 卡密开头为：Marisa</li>
+            <li><strong>小魔Lvrui666</strong> - <a href="https://shop.qwq3.com/">https://shop.qwq3.com/</a> 卡密开头为：Lvrui666</li>
+            <li><strong>AutoSave</strong> - <a href="https://autosave.top/">https://autosave.top/</a> 卡密开头为：AutoSave</li>
+        </ul>
+        <p><strong>只有在这里列出来的卡网才是可信卡网！</strong></p>
+        <p>QiuProxy不在其他任何平台售卖（如咸鱼等），如看到在其他平台售卖，均为假货！</p>
+    </div>
+
+    <script>
+        function showTOS() {
+            document.getElementById('tos-content').classList.remove('hidden');
+            document.getElementById('proxy-content').classList.add('hidden');
+        }
+        function showProxy() {
+            document.getElementById('tos-content').classList.add('hidden');
+            document.getElementById('proxy-content').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
